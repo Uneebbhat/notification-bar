@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+
+  <div class="main__wrapper">
+
+    <div class="notification__heading-wrapper">
+      <div class="notification__heading">
+        <h2>Notifications</h2>
+        <span class="notification__number">3</span>
+      </div>
+      <p class="button" onclick="toggleClick()">Mark all as read</p>
+    </div>
+
+    <div class="notification__wrapper">
+      <div class="all__notification">
+        <div class="first__wrapper">
+          <div class="notification">
+            <div class="user__img">
+              <img src="assets/images/mark.webp" alt="">
+            </div>
+            <div class="notification__message">
+              <div class="message__wrapper">
+                <p class="message">Mark Webber reacted to your recent post My first tournament today!
+                <p class="new"></p>
+              </div>
+              </p>
+              <p class="time">1m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="second__wrapper">
+          <div class="notification">
+            <div class="user__img">
+              <img src="assets/images/angela.webp" alt="">
+            </div>
+            <div class="notification__message">
+              <div class="message__wrapper">
+                <p class="message">Angela Gray followed you
+                <p class="new"></p>
+              </div>
+              </p>
+              <p class="time">1m ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="third__wrapper">
+          <div class="notification">
+            <div class="user__img">
+              <img src="assets/images/jacob.webp" alt="">
+            </div>
+            <div class="notification__message">
+              <div class="message__wrapper">
+                <p class="message">Jacob Thompson has joined your group Chess Club
+                <p class="new"></p>
+              </div>
+              </p>
+              <p class="time">1 day ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="fourth__wrapper">
+          <div class="notification old__message">
+            <div class="user__img">
+              <img src="assets/images/rizky.webp" alt="">
+            </div>
+            <div class="notification__message">
+              <div class="message__wrapper">
+                <p class="message">Rizky Hasanuddin sent you a private message
+              </div>
+              </p>
+              <p class="time">1 day ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+<script src="js/app.js"></script>
+
+</html>
